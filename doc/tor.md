@@ -1,4 +1,4 @@
-TOR SUPPORT IN LITECOIN
+TOR SUPPORT IN RACCOIN
 ======================
 
 It is possible to run Raccoin as a Tor hidden service, and connect to such services.
