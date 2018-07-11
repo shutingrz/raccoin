@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Raccoin"
-            VALUE "FileDescription",    "litecoind (Raccoin node with a JSON-RPC server)"
+            VALUE "FileDescription",    "raccoind (Raccoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoind"
+            VALUE "InternalName",       "raccoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoind.exe"
-            VALUE "ProductName",        "litecoind"
+            VALUE "OriginalFilename",   "raccoind.exe"
+            VALUE "ProductName",        "raccoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

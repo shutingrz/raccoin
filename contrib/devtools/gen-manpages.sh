@@ -4,10 +4,10 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-RACCOIND=${RACCOIND:-$SRCDIR/litecoind}
-RACCOINCLI=${RACCOINCLI:-$SRCDIR/litecoin-cli}
-RACCOINTX=${RACCOINTX:-$SRCDIR/litecoin-tx}
-RACCOINQT=${RACCOINQT:-$SRCDIR/qt/litecoin-qt}
+RACCOIND=${RACCOIND:-$SRCDIR/raccoind}
+RACCOINCLI=${RACCOINCLI:-$SRCDIR/raccoin-cli}
+RACCOINTX=${RACCOINTX:-$SRCDIR/raccoin-tx}
+RACCOINQT=${RACCOINQT:-$SRCDIR/qt/raccoin-qt}
 
 [ ! -x $RACCOIND ] && echo "$RACCOIND not found or not executable." && exit 1
 

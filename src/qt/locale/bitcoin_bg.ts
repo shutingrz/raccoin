@@ -406,7 +406,7 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and raccoin: URIs)</source>
         <translation>Изискване на плащания(генерира QR кодове и Raccoin: URIs)</translation>
     </message>
     <message>
@@ -418,7 +418,7 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a raccoin: URI or payment request</source>
         <translation>Отворете Raccoin: URI  или заявка за плащане</translation>
     </message>
     <message>
@@ -1094,7 +1094,7 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start raccoin: click-to-pay handler</source>
         <translation>Raccoin не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>

@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Raccoin address</source>
-        <translation>Enviar monedas a una dirección litecoin</translation>
+        <translation>Enviar monedas a una dirección raccoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+        <source>Request payments (generates QR codes and raccoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and raccoin: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -777,7 +777,7 @@
     </message>
     <message>
         <source>Raccoin Core</source>
-        <translation>litecoin core</translation>
+        <translation>raccoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>
