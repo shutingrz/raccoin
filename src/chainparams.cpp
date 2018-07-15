@@ -119,7 +119,7 @@ public:
         nDefaultPort = 8883;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1531310400, 634556435, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531310400, 634696322, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // Note that of those with the service bits flag, most only support a subset of possible options
@@ -199,7 +199,7 @@ public:
         nDefaultPort = 19883;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1531310400, 634556435, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531310400, 634696322, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear();
@@ -277,7 +277,7 @@ public:
         nDefaultPort = 20888;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1531310400, 634556435, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531310400, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
