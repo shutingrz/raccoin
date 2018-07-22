@@ -244,11 +244,11 @@ public:
     CRegTestParams() {
         strNetworkID = "regtest";
         consensus.nSubsidyHalvingInterval = 150;
-        consensus.BIP16Height = -1;
-        consensus.BIP34Height = -1;
-        consensus.BIP34Hash = uint256();
-        consensus.BIP65Height = -1;
-        consensus.BIP66Height = -1;
+        //consensus.BIP16Height = -1;
+        //consensus.BIP34Height = -1;
+        //consensus.BIP34Hash = uint256();
+        //consensus.BIP65Height = -1;
+        //consensus.BIP66Height = -1;
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 5 * 30; // 5 minutes
         consensus.nPowTargetSpacing = 30;
