@@ -124,6 +124,7 @@ public:
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.clear();
+        vSeeds.emplace_back("mainnet.raccoin.samurai-coin.xyz");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -165,7 +166,7 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.BIP65Height = -1;
         consensus.BIP66Height = -1;
-        consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 5 * 60; // 5 minutes
         consensus.nPowTargetSpacing = 30;
         consensus.fPowAllowMinDifficultyBlocks = true;
@@ -199,11 +200,12 @@ public:
         nDefaultPort = 19883;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1531310400, 634696322, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531310400, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        vSeeds.emplace_back("testnet.raccoin.samurai-coin.xyz");
         // nodes with support for servicebits filtering should be at the top
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,122);
