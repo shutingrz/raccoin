@@ -195,6 +195,8 @@ public:
 
         genesis = CreateGenesisBlock(1531310400, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0x967aaa62c5210edfca1dad7dcf37259f57472326515dbd4654c1705b5395c713"));
+        assert(genesis.hashMerkleRoot == uint256S("0xaa6dc459ba03e18e1eae37971ddf964eba732dff0721c2ccac6333ee560df900"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -274,6 +276,8 @@ public:
 
         genesis = CreateGenesisBlock(1531310400, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0x967aaa62c5210edfca1dad7dcf37259f57472326515dbd4654c1705b5395c713"));
+        assert(genesis.hashMerkleRoot == uint256S("0xaa6dc459ba03e18e1eae37971ddf964eba732dff0721c2ccac6333ee560df900"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
