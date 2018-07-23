@@ -75,7 +75,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 840000;
-        consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
+        consensus.powLimit = uint256S("00009fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
         consensus.nPowTargetSpacing = 2.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -114,8 +114,10 @@ public:
         nDefaultPort = 8883;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1531310400, 634696322, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531310400, 5518805, 0x1f009fff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+        assert(consensus.hashGenesisBlock == uint256S("0xfec44189c21d15577b4dba922584ea79e20f67278fc4c2c7a2e7c9a0f1fb8009"));
+        assert(genesis.hashMerkleRoot == uint256S("0xaa6dc459ba03e18e1eae37971ddf964eba732dff0721c2ccac6333ee560df900"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.clear();
