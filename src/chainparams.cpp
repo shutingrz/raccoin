@@ -76,6 +76,10 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 840000;
         consensus.powLimit = uint256S("00009fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
+	consensus.BIP34Height = 0;
+	consensus.BIP34Hash = uint256S("fec44189c21d15577b4dba922584ea79e20f67278fc4c2c7a2e7c9a0f1fb8009");
+	consensus.BIP65Height = 0;
+	consensus.BIP66Height = 0;
         consensus.nPowTargetTimespan = 5 * 60; // 5 minutes
         consensus.nPowTargetSpacing = 30; // 30 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -159,6 +163,10 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 840000;
         consensus.powLimit = uint256S("00009fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
+	consensus.BIP34Height = 0;
+	consensus.BIP34Hash = uint256S("fec44189c21d15577b4dba922584ea79e20f67278fc4c2c7a2e7c9a0f1fb8009");
+	consensus.BIP65Height = 0;
+	consensus.BIP66Height = 0;
         consensus.nPowTargetTimespan = 5 * 60; // 5 minutes
         consensus.nPowTargetSpacing = 30; // 30 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
